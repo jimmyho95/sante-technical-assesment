@@ -20,7 +20,7 @@ export interface GroupDiscount {
 
 export interface Payment {
   id: string;
-  type: 'cash' | 'credit' | 'debit' | 'giftcard';
+  type: string;
   amount: number;
 }
 
